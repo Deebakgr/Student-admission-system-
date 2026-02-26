@@ -1,0 +1,209 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'StudentUUID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'StudentUUID'
+annotate view ZC_STUDENT_ADM with
+{
+  @EndUserText.label: 'StudentUUID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'StudentUUID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'StudentUUID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  StudentUUID;
+  
+  @EndUserText.label: 'StudentID'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'StudentID'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'StudentID'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  StudentID;
+  
+  @EndUserText.label: 'FirstName'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'FirstName'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'FirstName'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  FirstName;
+  
+  @EndUserText.label: 'LastName'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'LastName'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'LastName'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  LastName;
+  
+  @EndUserText.label: 'DateOfBirth'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'DateOfBirth'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'DateOfBirth'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  DateOfBirth;
+  
+  @EndUserText.label: 'Email'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Email'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Email'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Email;
+  
+  @EndUserText.label: 'PhoneNumber'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'PhoneNumber'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'PhoneNumber'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  PhoneNumber;
+  
+  @EndUserText.label: 'CourseApplied'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'CourseApplied'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'CourseApplied'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  CourseApplied;
+  
+  @EndUserText.label: 'AdmissionStatus'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'AdmissionStatus'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'AdmissionStatus'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  AdmissionStatus;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  LastChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 150 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 150 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  _BaseEntity;
+}
